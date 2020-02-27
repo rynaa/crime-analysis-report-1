@@ -8,6 +8,12 @@ A comprehensive study of crime occurrences in India <br>
     * Pip
     * Pipenv
 
+### Dependencies
+- Pandas
+- Numpy
+- Seaborn
+- Matplotlib
+- pyshp
 
 ### Installation
 - Clone the repository:
@@ -31,3 +37,4 @@ $$ jupyter notebook
 * [Pranjal Gupta](https://github.com/PranjalGupta2199)
 * [Daksh Yashlaha](https://github.com/daksh-yashlaha)
 * [Rynaa Grover](https://github.com/rynaa)
+* [Sourav Sanganeria](https://github.com/SouravSanganeria)
