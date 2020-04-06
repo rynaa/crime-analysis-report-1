@@ -1,0 +1,184 @@
+1) min_sup = 100
+
+Frequent itemsets:
+
+[ Murder,  ]
+[ Rape,  ]
+[ Foeticide,  ]
+[ Kidnapping and Abduction,  ]
+[ Abetment of suicide,  ]
+[ Exposure and abandonment,  ]
+[ Procuration of minor girls,  ]
+[ Selling of girls for prostitution,  ]
+[ Prohibition of child marriage act,  ]
+[ Other Crimes,  ]
+[ Abetment of suicide,  Other Crimes,  ]
+[ Foeticide,  Other Crimes,  ]
+[ Murder,  Foeticide,  ]
+[ Rape,  Kidnapping and Abduction,  ]
+[ Murder,  Abetment of suicide,  ]
+[ Kidnapping and Abduction,  Exposure and abandonment,  ]
+[ Rape,  Exposure and abandonment,  ]
+[ Murder,  Procuration of minor girls,  ]
+[ Foeticide,  Prohibition of child marriage act,  ]
+[ Murder,  Prohibition of child marriage act,  ]
+[ Exposure and abandonment,  Other Crimes,  ]
+[ Kidnapping and Abduction,  Other Crimes,  ]
+[ Rape,  Foeticide,  ]
+[ Prohibition of child marriage act,  Other Crimes,  ]
+[ Procuration of minor girls,  Other Crimes,  ]
+[ Kidnapping and Abduction,  Abetment of suicide,  ]
+[ Rape,  Abetment of suicide,  ]
+[ Kidnapping and Abduction,  Procuration of minor girls,  ]
+[ Rape,  Procuration of minor girls,  ]
+[ Kidnapping and Abduction,  Prohibition of child marriage act,  ]
+[ Rape,  Prohibition of child marriage act,  ]
+[ Murder,  Other Crimes,  ]
+[ Murder,  Rape,  ]
+[ Exposure and abandonment,  Prohibition of child marriage act,  ]
+[ Foeticide,  Kidnapping and Abduction,  ]
+[ Murder,  Kidnapping and Abduction,  ]
+[ Abetment of suicide,  Exposure and abandonment,  ]
+[ Foeticide,  Exposure and abandonment,  ]
+[ Murder,  Exposure and abandonment,  ]
+[ Exposure and abandonment,  Procuration of minor girls,  ]
+[ Rape,  Other Crimes,  ]
+[ Murder,  Rape,  Kidnapping and Abduction,  ]
+[ Murder,  Rape,  Other Crimes,  ]
+[ Murder,  Foeticide,  Kidnapping and Abduction,  ]
+[ Murder,  Kidnapping and Abduction,  Exposure and abandonment,  ]
+[ Murder,  Rape,  Exposure and abandonment,  ]
+[ Murder,  Rape,  Procuration of minor girls,  ]
+[ Murder,  Exposure and abandonment,  Prohibition of child marriage act,  ]
+[ Murder,  Kidnapping and Abduction,  Prohibition of child marriage act,  ]
+[ Murder,  Rape,  Foeticide,  ]
+[ Murder,  Rape,  Prohibition of child marriage act,  ]
+[ Rape,  Kidnapping and Abduction,  Exposure and abandonment,  ]
+
+
+a) min_conf = 0.4
+
+
+Rules:
+
+Foeticide,  ---> Murder,  
+Kidnapping and Abduction,  ---> Rape,  
+Abetment of suicide,  ---> Murder,  
+Exposure and abandonment,  ---> Kidnapping and Abduction,  
+Exposure and abandonment,  ---> Rape,  
+Procuration of minor girls,  ---> Murder,  
+Prohibition of child marriage act,  ---> Murder,  
+Foeticide,  ---> Rape,  
+Abetment of suicide,  ---> Kidnapping and Abduction,  
+Abetment of suicide,  ---> Rape,  
+Procuration of minor girls,  ---> Rape,  
+Prohibition of child marriage act,  ---> Kidnapping and Abduction,  
+Prohibition of child marriage act,  ---> Rape,  
+Murder,  ---> Rape,  
+Rape,  ---> Murder,  
+Foeticide,  ---> Kidnapping and Abduction,  
+Murder,  ---> Kidnapping and Abduction,  
+Kidnapping and Abduction,  ---> Murder,  
+Abetment of suicide,  ---> Exposure and abandonment,  
+Exposure and abandonment,  ---> Murder,  
+Murder,  Kidnapping and Abduction,  ---> Rape,  
+Rape,  Kidnapping and Abduction,  ---> Murder,  
+Rape,  Other Crimes,  ---> Murder,  
+Murder,  Foeticide,  ---> Kidnapping and Abduction,  
+Foeticide,  Kidnapping and Abduction,  ---> Murder,  
+Murder,  Exposure and abandonment,  ---> Kidnapping and Abduction,  
+Kidnapping and Abduction,  Exposure and abandonment,  ---> Murder,  
+Murder,  Exposure and abandonment,  ---> Rape,  
+Rape,  Exposure and abandonment,  ---> Murder,  
+Murder,  Procuration of minor girls,  ---> Rape,  
+Rape,  Procuration of minor girls,  ---> Murder,  
+Murder,  Prohibition of child marriage act,  ---> Exposure and abandonment,  
+Prohibition of child marriage act,  Exposure and abandonment,  ---> Murder,  
+Prohibition of child marriage act,  Kidnapping and Abduction,  ---> Murder,  
+Murder,  Foeticide,  ---> Rape,  
+Rape,  Foeticide,  ---> Murder,  
+Murder,  Prohibition of child marriage act,  ---> Rape,  
+Prohibition of child marriage act,  Rape,  ---> Murder,  
+Rape,  Exposure and abandonment,  ---> Kidnapping and Abduction,  
+Kidnapping and Abduction,  Exposure and abandonment,  ---> Rape, 
+
+
+b) min_conf = 0.5
+
+
+Rules:
+
+Foeticide,  ---> Murder,  
+Abetment of suicide,  ---> Rape,  
+Murder,  ---> Rape,  
+Exposure and abandonment,  ---> Murder,  
+Foeticide,  Kidnapping and Abduction,  ---> Murder,  
+Kidnapping and Abduction,  Exposure and abandonment,  ---> Murder,  
+Murder,  Exposure and abandonment,  ---> Rape,  
+Rape,  Exposure and abandonment,  ---> Murder,  
+Murder,  Procuration of minor girls,  ---> Rape,  
+Rape,  Procuration of minor girls,  ---> Murder,  
+Prohibition of child marriage act,  Exposure and abandonment,  ---> Murder,  
+Murder,  Foeticide,  ---> Rape,  
+Rape,  Foeticide,  ---> Murder,  
+Prohibition of child marriage act,  Rape,  ---> Murder, 
+
+
+2) min_sup = 200
+
+Frequent itemsets:
+
+[ Murder,  ]
+[ Rape,  ]
+[ Foeticide,  ]
+[ Kidnapping and Abduction,  ]
+[ Abetment of suicide,  ]
+[ Exposure and abandonment,  ]
+[ Procuration of minor girls,  ]
+[ Prohibition of child marriage act,  ]
+[ Other Crimes,  ]
+[ Murder,  Kidnapping and Abduction,  ]
+[ Murder,  Foeticide,  ]
+[ Murder,  Prohibition of child marriage act,  ]
+[ Exposure and abandonment,  Other Crimes,  ]
+[ Kidnapping and Abduction,  Other Crimes,  ]
+[ Rape,  Kidnapping and Abduction,  ]
+[ Kidnapping and Abduction,  Prohibition of child marriage act,  ]
+[ Rape,  Foeticide,  ]
+[ Rape,  Prohibition of child marriage act,  ]
+[ Murder,  Exposure and abandonment,  ]
+[ Kidnapping and Abduction,  Exposure and abandonment,  ]
+[ Murder,  Other Crimes,  ]
+[ Rape,  Exposure and abandonment,  ]
+[ Murder,  Rape,  ]
+[ Rape,  Other Crimes,  ]
+[ Murder,  Rape,  Kidnapping and Abduction,  ]
+
+a) min_conf = 0.4
+
+Rules:
+
+Murder,  ---> Kidnapping and Abduction,  
+Kidnapping and Abduction,  ---> Murder,  
+Foeticide,  ---> Murder,  
+Prohibition of child marriage act,  ---> Murder,  
+Kidnapping and Abduction,  ---> Rape,  
+Prohibition of child marriage act,  ---> Kidnapping and Abduction,  
+Foeticide,  ---> Rape,  
+Prohibition of child marriage act,  ---> Rape,  
+Exposure and abandonment,  ---> Murder,  
+Exposure and abandonment,  ---> Kidnapping and Abduction,  
+Exposure and abandonment,  ---> Rape,  
+Murder,  ---> Rape,  
+Rape,  ---> Murder,  
+Murder,  Kidnapping and Abduction,  ---> Rape,  
+Rape,  Kidnapping and Abduction,  ---> Murder,
+
+
+b) min_conf = 0.5
+
+Rules:
+
+Foeticide,  ---> Murder,  
+Exposure and abandonment,  ---> Murder,  
+Murder,  ---> Rape,  

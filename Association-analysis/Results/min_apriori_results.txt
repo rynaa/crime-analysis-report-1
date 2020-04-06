@@ -1,0 +1,173 @@
+1) min_sup = 0.25
+
+Frequent Itemsets:
+
+[ Murder,  ]
+[ Rape,  ]
+[ Foeticide,  ]
+[ Kidnapping and Abduction,  ]
+[ Abetment of suicide,  ]
+[ Exposure and abandonment,  ]
+[ Procuration of minor girls,  ]
+[ Selling of girls for prostitution,  ]
+[ Prohibition of child marriage act,  ]
+[ Other Crimes,  ]
+[ Kidnapping and Abduction,  Prohibition of child marriage act,  ]
+[ Rape,  Prohibition of child marriage act,  ]
+[ Abetment of suicide,  Other Crimes,  ]
+[ Murder,  Foeticide,  ]
+[ Rape,  Kidnapping and Abduction,  ]
+[ Rape,  Exposure and abandonment,  ]
+[ Murder,  Rape,  ]
+[ Rape,  Other Crimes,  ]
+[ Exposure and abandonment,  Prohibition of child marriage act,  ]
+[ Murder,  Kidnapping and Abduction,  ]
+[ Foeticide,  Exposure and abandonment,  ]
+[ Murder,  Exposure and abandonment,  ]
+[ Kidnapping and Abduction,  Exposure and abandonment,  ]
+[ Foeticide,  Other Crimes,  ]
+[ Murder,  Other Crimes,  ]
+[ Exposure and abandonment,  Other Crimes,  ]
+[ Kidnapping and Abduction,  Other Crimes,  ]
+[ Rape,  Foeticide,  ]
+[ Rape,  Abetment of suicide,  ]
+[ Murder,  Prohibition of child marriage act,  ]
+[ Rape,  Kidnapping and Abduction,  Exposure and abandonment,  ]
+[ Murder,  Rape,  Kidnapping and Abduction,  ]
+[ Murder,  Rape,  Other Crimes,  ]
+[ Murder,  Rape,  Exposure and abandonment,  ]
+
+
+a) min_conf = 0.4
+
+Rules:
+
+Rape,  ---> Kidnapping and Abduction,  
+Kidnapping and Abduction,  ---> Rape,  
+Rape,  ---> Exposure and abandonment,  
+Exposure and abandonment,  ---> Rape,  
+Murder,  ---> Rape,  
+Rape,  ---> Murder,  
+Rape,  ---> Other Crimes,  
+Other Crimes,  ---> Rape,  
+Murder,  ---> Kidnapping and Abduction,  
+Kidnapping and Abduction,  ---> Murder,  
+Murder,  ---> Exposure and abandonment,  
+Exposure and abandonment,  ---> Murder,  
+Murder,  ---> Other Crimes,  
+Other Crimes,  ---> Murder,  
+Rape,  Kidnapping and Abduction,  ---> Exposure and abandonment,  
+Rape,  Exposure and abandonment,  ---> Kidnapping and Abduction,  
+Kidnapping and Abduction,  Exposure and abandonment,  ---> Rape,  
+Murder,  ---> Rape,  Kidnapping and Abduction,  
+Rape,  ---> Murder,  Kidnapping and Abduction,  
+Kidnapping and Abduction,  ---> Murder,  Rape,  
+Murder,  Rape,  ---> Kidnapping and Abduction,  
+Murder,  Kidnapping and Abduction,  ---> Rape,  
+Rape,  Kidnapping and Abduction,  ---> Murder,  
+Murder,  Rape,  ---> Other Crimes,  
+Murder,  Other Crimes,  ---> Rape,  
+Rape,  Other Crimes,  ---> Murder,  
+Murder,  Rape,  ---> Exposure and abandonment,  
+Murder,  Exposure and abandonment,  ---> Rape,  
+Rape,  Exposure and abandonment,  ---> Murder,  
+
+
+b) min_conf = 0.5
+
+Rules:
+
+Rape,  ---> Kidnapping and Abduction,  
+Kidnapping and Abduction,  ---> Rape,  
+Murder,  ---> Rape,  
+Rape,  ---> Murder,  
+Rape,  ---> Other Crimes,  
+Other Crimes,  ---> Rape,  
+Murder,  ---> Kidnapping and Abduction,  
+Kidnapping and Abduction,  ---> Murder,  
+Rape,  Exposure and abandonment,  ---> Kidnapping and Abduction,  
+Kidnapping and Abduction,  Exposure and abandonment,  ---> Rape,  
+Murder,  Rape,  ---> Kidnapping and Abduction,  
+Murder,  Kidnapping and Abduction,  ---> Rape,  
+Rape,  Kidnapping and Abduction,  ---> Murder,  
+Murder,  Rape,  ---> Other Crimes,  
+Murder,  Other Crimes,  ---> Rape,  
+Rape,  Other Crimes,  ---> Murder,  
+Murder,  Rape,  ---> Exposure and abandonment,  
+Murder,  Exposure and abandonment,  ---> Rape,  
+Rape,  Exposure and abandonment,  ---> Murder, 
+
+
+
+2) min_sup = 0.35
+
+Frequent Itemsets:
+
+[ Murder,  ]
+[ Rape,  ]
+[ Foeticide,  ]
+[ Kidnapping and Abduction,  ]
+[ Abetment of suicide,  ]
+[ Exposure and abandonment,  ]
+[ Procuration of minor girls,  ]
+[ Selling of girls for prostitution,  ]
+[ Prohibition of child marriage act,  ]
+[ Other Crimes,  ]
+[ Rape,  Kidnapping and Abduction,  ]
+[ Rape,  Exposure and abandonment,  ]
+[ Murder,  Rape,  ]
+[ Rape,  Other Crimes,  ]
+[ Murder,  Kidnapping and Abduction,  ]
+[ Murder,  Exposure and abandonment,  ]
+[ Murder,  Other Crimes,  ]
+[ Exposure and abandonment,  Other Crimes,  ]
+[ Kidnapping and Abduction,  Other Crimes,  ]
+[ Murder,  Rape,  Kidnapping and Abduction,  ]
+[ Murder,  Rape,  Other Crimes,  ]
+
+a) min_conf = 0.4
+
+Rules:
+
+Rape,  ---> Kidnapping and Abduction,  
+Kidnapping and Abduction,  ---> Rape,  
+Rape,  ---> Exposure and abandonment,  
+Exposure and abandonment,  ---> Rape,  
+Murder,  ---> Rape,  
+Rape,  ---> Murder,  
+Rape,  ---> Other Crimes,  
+Other Crimes,  ---> Rape,  
+Murder,  ---> Kidnapping and Abduction,  
+Kidnapping and Abduction,  ---> Murder,  
+Murder,  ---> Exposure and abandonment,  
+Exposure and abandonment,  ---> Murder,  
+Murder,  ---> Other Crimes,  
+Other Crimes,  ---> Murder,  
+Murder,  ---> Rape,  Kidnapping and Abduction,  
+Rape,  ---> Murder,  Kidnapping and Abduction,  
+Kidnapping and Abduction,  ---> Murder,  Rape,  
+Murder,  Rape,  ---> Kidnapping and Abduction,  
+Murder,  Kidnapping and Abduction,  ---> Rape,  
+Rape,  Kidnapping and Abduction,  ---> Murder,  
+Murder,  Rape,  ---> Other Crimes,  
+Murder,  Other Crimes,  ---> Rape,  
+Rape,  Other Crimes,  ---> Murder,  
+
+b) min_conf = 0.5
+
+Rules:
+
+Rape,  ---> Kidnapping and Abduction,  
+Kidnapping and Abduction,  ---> Rape,  
+Murder,  ---> Rape,  
+Rape,  ---> Murder,  
+Rape,  ---> Other Crimes,  
+Other Crimes,  ---> Rape,  
+Murder,  ---> Kidnapping and Abduction,  
+Kidnapping and Abduction,  ---> Murder,  
+Murder,  Rape,  ---> Kidnapping and Abduction,  
+Murder,  Kidnapping and Abduction,  ---> Rape,  
+Rape,  Kidnapping and Abduction,  ---> Murder,  
+Murder,  Rape,  ---> Other Crimes,  
+Murder,  Other Crimes,  ---> Rape,  
+Rape,  Other Crimes,  ---> Murder,  
