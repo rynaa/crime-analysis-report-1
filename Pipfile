@@ -12,6 +12,7 @@ scikit-learn = "*"
 jupyterlab = "*"
 matplotlib = "*"
 seaborn = "*"
+tabula-py = "*"
 
 [requires]
 python_version = "3.7"
