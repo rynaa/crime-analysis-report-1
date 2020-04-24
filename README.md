@@ -18,17 +18,17 @@ A comprehensive study of crime occurrences in India <br>
 ### Installation
 - Clone the repository:
 ```bash
-$$ git clone https://github.com/PranjalGupta2199/crime-analysis-report.git
-$$ cd crime-analysis-report/
+$ git clone https://github.com/PranjalGupta2199/crime-analysis-report.git
+$ cd crime-analysis-report/
 ```
 - Intialise the virtual environment:
 ```bash
-$$ pipenv shell
-$$ pipenv install
+$ pipenv shell
+$ pipenv install
 ```
 - Start the jupyterlab server:
 ```bash
-$$ jupyter notebook
+$ jupyter notebook
 ```
 
 - Close the server using ```Ctrl + c```
