@@ -13,6 +13,7 @@ jupyterlab = "*"
 matplotlib = "*"
 seaborn = "*"
 tabula-py = "*"
+nbimporter = "*"
 
 [requires]
 python_version = "3.7"
